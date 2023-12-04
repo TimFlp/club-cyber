@@ -1,4 +1,5 @@
 #!/bin/bash
+## Fonctionnel et testé pour des machines Debian 11 - 12.
 
 GREEN='\033[0;32m'
 NC='\033[0m'
@@ -48,7 +49,8 @@ install-docker() { ## D'après la documentation Docker : https://docs.docker.com
     sudo systemctl start docker
 
     echo "[*] Ajout de l'utilisateur test et actuel au groupe Docker..."
-    sudo usermod -aG docker test && sudo usermod -aG docker $USER
+    sudo usermod -aG docker $USER # Gestion erreur
+    sudo usermod -aG docker test 
     echo "[*] Installation de Docker terminée."
 
 }
