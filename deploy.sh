@@ -5,6 +5,7 @@ GREEN='\033[0;32m'
 NC='\033[0m'
 
 ascii-art() {
+## Récupéré sur : https://ascii.co.uk/art/whale
 echo ""
 echo "      __________...----..____..-'\`\`-..___"
 echo "    ,'.                                  \`\`\`--.._"
