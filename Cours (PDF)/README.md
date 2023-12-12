@@ -1,1 +1,3 @@
+![attention](atenssioonn.png)
+
 Il s'agit ici des supports créés pour les cours donnés lors des classes du soir. Ils sont destinés à des étudiants généralement en première année et ne connaissant pas forcément toutes les bases du réseau (Modèle Osi, TCP/IP...). Il s'agit plus d'un complément très bref des notions vues en cours pour aborder plus facilement l'apprentissage de la méthode de résolution de CTFs. Les cours ne sont donc pas parfait et très résumés.
